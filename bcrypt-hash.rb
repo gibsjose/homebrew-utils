@@ -1,13 +1,12 @@
-class BcryptHhash < Formula
-    desc "Generate or verify secure cryptographic hashes from the command-line using bcrypt"
-    homepage "https://github.com/gibsjose/bcrypt-hash"
-    version "1.1.0"
-    url "https://github.com/gibsjose/bcrypt-hash/archive/1.1.0.tar.gz"
-    sha256 "d0b7bedc93ed31398f4f5e1c68b447971fd865dcb948c97a1042254c003d8766"
+class BcryptHash < Formula
+  desc "Generate and verify secure cryptographic hashes from the command-line using bcrypt"
+  homepage "https://github.com/gibsjose/bcrypt-hash"
+  url "https://github.com/gibsjose/bcrypt-hash/archive/1.2.0.tar.gz"
+  version "1.2.0"
+  sha256 "77945e0c62ac50db71d4a2e91649de9a0b6463e107329c60b8b124596269d2a5"
 
-    bottle :unneeded
-
-    def install
-        bin.install "bcrypt-hash"
-    end
+  def install
+      bin.install "bcrypt-hash"
+      bin.install "docopt.php"
+  end
 end
