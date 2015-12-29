@@ -8,6 +8,6 @@ class BcryptHhash < Formula
     bottle :unneeded
 
     def install
-        bin.install "bcrypt-hash-1.1.0" => "bcrypt-hash"
+        bin.install "bcrypt-hash"
     end
 end
