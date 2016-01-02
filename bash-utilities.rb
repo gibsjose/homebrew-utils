@@ -1,9 +1,9 @@
 class BashUtilities < Formula
   desc "Useful bash utilities"
   homepage "https://github.com/gibsjose/bash-utilities"
-  url "https://github.com/gibsjose/bash-utilities/archive/1.0.0.tar.gz"
-  version "1.0.0"
-  sha256 "5fc70b322a4a4d26112f8b822156d0ff746c978d51d80de23d8239b34bd53105"
+  url "https://github.com/gibsjose/bash-utilities/archive/1.1.0.tar.gz"
+  version "1.1.0"
+  sha256 "01285b79fe6500f7904eeba513abd203d7262e1bcbd2b32d26ba2d32bc342ee1"
 
   def install
       bin.install "countdown"
