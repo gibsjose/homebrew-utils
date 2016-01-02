@@ -3,7 +3,7 @@ class BashUtilities < Formula
   homepage "https://github.com/gibsjose/bash-utilities"
   url "https://github.com/gibsjose/bash-utilities/archive/1.1.0.tar.gz"
   version "1.1.0"
-  sha256 "01285b79fe6500f7904eeba513abd203d7262e1bcbd2b32d26ba2d32bc342ee1"
+  sha256 "50ae58313798e9755ba97546116fc94c18ee0a4660a97c6a0b53e86e53138b32"
 
   def install
       bin.install "countdown"
